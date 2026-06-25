@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subsideep · 技术支持</title>
+<style>
+body{font-family:-apple-system,sans-serif;background:#1c1c1e;color:#f5f5f7;max-width:600px;margin:0 auto;padding:48px 24px}
+h1{font-size:20px;font-weight:300;letter-spacing:4px;text-align:center;margin-bottom:24px}
+.card{background:#2c2c2e;border-radius:14px;padding:20px;margin-bottom:12px}
+.card h2{font-size:14px;color:#98989d;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.card p,.card li{font-size:13px;color:#98989d;line-height:1.7}
+.card ul{padding-left:16px;margin:8px 0}
+.faq-q{font-weight:500;color:#f5f5f7;margin-bottom:4px;margin-top:12px}
+.faq-a{color:#98989d;margin-bottom:8px}
+.footer{text-align:center;padding:32px 0;font-size:11px;color:#48484a}
+.lang-btn{text-align:center;margin-bottom:24px}
+.lang-btn button{background:#2c2c2e;color:#98989d;border:1px solid #38383a;border-radius:20px;padding:6px 16px;font-size:12px;cursor:pointer}
+.lang-btn button:hover{color:#f5f5f7}
+</style>
+</head>
+<body>
+<h1>SUBSIDEEP</h1>
+<div class="lang-btn">
+  <button onclick="sw('zh')">中文</button>
+  <button onclick="sw('en')">English</button>
+</div>
+
+<div id="zh">
+<div class="card">
+<h2>联系支持</h2>
+<p>遇到任何问题，可直接在 Subsideep App Store 页面留言。每一条反馈都会被认真阅读。</p>
+</div>
+<div class="card">
+<h2>常见问题</h2>
+<div class="faq-q">Subsideep 需要联网吗？</div>
+<div class="faq-a">不需要。所有声音和功能都在本地运行。</div>
+<div class="faq-q">听不到声音怎么办？</div>
+<div class="faq-a">检查：1) 静音开关是否关闭 2) 音量是否过低 3) 是否连接了蓝牙设备。推荐使用耳机。</div>
+<div class="faq-q">可以后台播放吗？</div>
+<div class="faq-a">可以。锁定屏幕或切换 App 后声音继续播放。</div>
+<div class="faq-q">数据会上传服务器吗？</div>
+<div class="faq-a">不会。所有数据只保存在本地设备。</div>
+</div>
+</div>
+
+<div id="en" style="display:none">
+<div class="card">
+<h2>Contact Support</h2>
+<p>Leave a comment on the Subsideep App Store page. Every message is read.</p>
+</div>
+<div class="card">
+<h2>FAQ</h2>
+<div class="faq-q">Does Subsideep need internet?</div>
+<div class="faq-a">No. All sounds and features run locally.</div>
+<div class="faq-q">Can't hear anything?</div>
+<div class="faq-a">Check: 1) Mute switch off 2) Volume up 3) Bluetooth output. Headphones recommended.</div>
+<div class="faq-q">Background playback?</div>
+<div class="faq-a">Yes. Sound continues when locked or switching apps.</div>
+<div class="faq-q">Data uploaded?</div>
+<div class="faq-a">No. Everything stays on your device.</div>
+</div>
+</div>
+
+<div class="footer">Subsideep · A 虾搞基地 product</div>
+<script>
+function sw(l){document.getElementById('zh').style.display=l==='zh'?'block':'none';document.getElementById('en').style.display=l==='en'?'block':'none'}
+</script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Subsideep · Support</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:#1c1c1e;
+  color:#f5f5f7;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.container{
+  max-width:600px;
+  width:100%;
+  padding:48px 24px 80px;
+}
+.logo{
+  text-align:center;
+  margin-bottom:48px;
+}
+.logo-icon{
+  width:64px;
+  height:64px;
+  background:linear-gradient(135deg,#6366f1,#8b5cf6);
+  border-radius:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 16px;
+  box-shadow:0 8px 32px rgba(99,102,241,.3);
+}
+.logo-icon svg{width:32px;height:32px;fill:#fff}
+.logo h1{
+  font-size:24px;
+  font-weight:300;
+  letter-spacing:6px;
+  color:#f5f5f7;
+}
+.logo p{
+  font-size:12px;
+  color:#636366;
+  margin-top:4px;
+  letter-spacing:2px;
+}
+.section{
+  margin-bottom:36px;
+}
+.section h2{
+  font-size:14px;
+  font-weight:600;
+  color:#98989d;
+  text-transform:uppercase;
+  letter-spacing:1.5px;
+  margin-bottom:16px;
+}
+.card{
+  background:#2c2c2e;
+  border-radius:14px;
+  padding:20px;
+  margin-bottom:12px;
+}
+.card h3{
+  font-size:15px;
+  font-weight:500;
+  color:#f5f5f7;
+  margin-bottom:8px;
+}
+.card p{
+  font-size:13px;
+  color:#98989d;
+  line-height:1.6;
+}
+.card a{
+  color:#5e5ce6;
+  text-decoration:none;
+}
+.card a:hover{text-decoration:underline}
+.faq-item{
+  padding:16px 0;
+  border-bottom:1px solid #38383a;
+}
+.faq-item:last-child{border-bottom:none}
+.faq-q{
+  font-size:14px;
+  font-weight:500;
+  color:#f5f5f7;
+  margin-bottom:6px;
+}
+.faq-a{
+  font-size:13px;
+  color:#98989d;
+  line-height:1.6;
+}
+.lang-toggle{
+  text-align:center;
+  margin-bottom:32px;
+}
+.lang-btn{
+  display:inline-block;
+  padding:6px 16px;
+  border-radius:20px;
+  font-size:12px;
+  background:#2c2c2e;
+  color:#98989d;
+  border:1px solid #38383a;
+  cursor:pointer;
+  transition:all .2s;
+}
+.lang-btn:hover{
+  background:#3a3a3c;
+  color:#f5f5f7;
+}
+.age-rating{
+  text-align:center;
+  padding:12px 24px 4px;
+  font-size:11px;
+  color:#636366;
+  line-height:1.6;
+  max-width:480px;
+  margin:0 auto;
+}
+.footer{
+  text-align:center;
+  padding:24px;
+  font-size:11px;
+  color:#48484a;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="logo">
+  <div class="logo-icon">
+    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.81 3.98-2.55 5.39z"/></svg>
+  </div>
+  <h1>SUBSIDEEP</h1>
+  <p>Sleep · Drift · Rest</p>
+</div>
+
+<!-- ====== ZH ====== -->
+<div id="zh" class="lang-content">
+<div class="section">
+  <h2>联系支持</h2>
+  <div class="card">
+    <h3>🤖 联系我的 AI 助手</h3>
+    <p>遇到任何问题，直接在 Subsideep App Store 页面留言即可。</p>
+    <p style="margin-top:8px">你的反馈会直接送到我的 AI 助手手里，我们会认真看每一条。</p>
+  </div>
+  <div class="card">
+    <h3>🐛 反馈 Bug</h3>
+    <p>在 App Store 评论区描述你的问题（附上设备型号和 iOS 版本），我们会尽快处理。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>常见问题</h2>
+  <div class="card">
+    <div class="faq-item">
+      <div class="faq-q">Subsideep 需要联网吗？</div>
+      <div class="faq-a">不需要。所有声音和功能都在本地运行，无需网络连接。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">为什么我听不到声音？</div>
+      <div class="faq-a">请检查：1) 手机静音开关是否关闭 2) 音量是否过低 3) 是否连接了蓝牙设备。Subsideep 推荐使用耳机以获得沉浸体验。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">可以后台播放吗？</div>
+      <div class="faq-a">可以。锁定屏幕或切换到其他 App 后，声音会继续播放。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">数据会传到服务器吗？</div>
+      <div class="faq-a">不会。你的睡眠记录、照片和笔记只保存在本地设备上，不上传任何服务器。</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ====== EN ====== -->
+<div id="en" class="lang-content" style="display:none">
+<div class="section">
+  <h2>Contact Support</h2>
+  <div class="card">
+    <h3>🤖 Talk to My AI Assistant</h3>
+    <p>Leave a comment on the Subsideep App Store page — your feedback goes straight to my AI assistant.</p>
+    <p style="margin-top:8px">Every message is read and taken seriously.</p>
+  </div>
+  <div class="card">
+    <h3>🐛 Report a Bug</h3>
+    <p>Describe your issue on the App Store (include device model and iOS version), and we'll take it from there.</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>FAQ</h2>
+  <div class="card">
+    <div class="faq-item">
+      <div class="faq-q">Does Subsideep need internet?</div>
+      <div class="faq-a">No. All sounds and features run locally. No internet connection required.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">I can't hear anything. What should I do?</div>
+      <div class="faq-a">Check: 1) The mute switch on your iPhone is off 2) Volume is turned up 3) No Bluetooth device is overriding output. Headphones are recommended for the best experience.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can it play in the background?</div>
+      <div class="faq-a">Yes. Sound continues when you lock the screen or switch to another app.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is my data uploaded?</div>
+      <div class="faq-a">No. Your sleep records, photos, and notes stay on your device only. No data is sent to any server.</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="lang-toggle">
+  <button class="lang-btn" onclick="switchLang('zh')">中文</button>
+  <button class="lang-btn" onclick="switchLang('en')">English</button>
+</div>
+
+<div class="age-rating">
+  This app offers sleep relaxation audio and peaceful background sounds for all ages. It contains no violent, adult, harmful or inappropriate content, suitable for users aged 4 and above.
+</div>
+
+<div class="footer">
+  Subsideep &middot; A 虾搞基地 product
+</div>
+
+</div>
+
+<script>
+function switchLang(lang){
+  document.querySelectorAll('.lang-content').forEach(el => el.style.display = 'none');
+  document.getElementById(lang).style.display = 'block';
+}
+// detect browser lang
+var lang = navigator.language || navigator.userLanguage;
+if(lang && lang.startsWith('zh')) switchLang('zh');
+else switchLang('en');
+</script>
+
+</body>
+</html>
